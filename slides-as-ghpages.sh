@@ -12,5 +12,6 @@ git commit --allow-empty -m "Initializing gh-pages branch"
 git push origin gh-pages
 git checkout master
 
-echo "Checking out gh-pages branch into public"
-git worktree add -B gh-pages slides origin/gh-pages
+echo "Checking out gh-pages branch into slides_public"
+mkdir slides_public
+git worktree add -B gh-pages slides_public origin/gh-pages
