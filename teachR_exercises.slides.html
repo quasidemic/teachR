@@ -14605,6 +14605,26 @@ div.jp-OutputPrompt {
 </div></section></section><section><section>
 <div class="jp-Cell-inputWrapper"><div class="jp-InputPrompt jp-InputArea-prompt">
 </div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput " data-mime-type="text/markdown">
+<h2 id="EXERCISE:-Barplot-with-ggplot2">EXERCISE: Barplot with ggplot2<a class="anchor-link" href="#EXERCISE:-Barplot-with-ggplot2">&#182;</a></h2><p>In this exercise, you will try to create a barplot. Depending on how you want to display the values, it may make more sense to create a dataframe specifically for the visualization (fx by using <code>group_by()</code>)</p>
+<ol>
+<li><p>Create a barplot comparing how many voted in the last election across gender (<code>geom_bar</code>)</p>
+</li>
+<li><p>Use <code>labs</code> to add meaningful labels</p>
+</li>
+<li><p>Customize your plots using other settings, fx:</p>
+<ul>
+<li><code>scale_y_continuous()</code> for changing the y sclae</li>
+<li><code>scale_fill_brewer()</code> for changing the colour</li>
+<li><code>geom_text()</code> for adding data labels</li>
+<li>etc.</li>
+</ul>
+</li>
+</ol>
+
+</div>
+</div></section></section><section><section>
+<div class="jp-Cell-inputWrapper"><div class="jp-InputPrompt jp-InputArea-prompt">
+</div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput " data-mime-type="text/markdown">
 <h2 id="EXERCISE:-T-test">EXERCISE: T-test<a class="anchor-link" href="#EXERCISE:-T-test">&#182;</a></h2><p>Test whether voters (<code>prtvtddk</code>) of "Socialdemokratiet" spend more time on the internet (<code>netustm</code>) than voters of "Venstre" using a t-test.</p>
 <p>Either use the base <code>t.test()</code> function or use <code>t_test()</code> from the <code>infer</code> package.</p>
 
